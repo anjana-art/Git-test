@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <link rel="stylesheet" type="text/css"  href="survey.css">
+      </head>
+
+<body>
+<h1 id="title">Purchase Housing </h1>
+
+<p id="discription">Fill the following brackets to help us improve our plateform</p>
+
+
+<form id="survey-form">
+    <div class="input_heading">
+
+    <label for="name" id="name-label">Name</label>
+    <input id="name" type="text" name="name" placeholder="name" class="form-input" required> </input> 
+    <br>
+
+    <label for="email" id="email-label">Email address</label>
+    <input id="email" type="email" name="email" placeholder="email" class="form-input" required> </input> 
+    <br>
+
+    <label for="age" id="number-label">Age</label>
+    <input id="age" type="number" name="age" placeholder="age"  min="18" max="100" class="form-input"  required> </input> 
+    <br>
+
+    <label for="dropdown" id="model" >  Select Apartment</label>
+
+    <select id="dropdown" class="form-input">
+     <option value="T0">T0</option>
+     <option value="T1">T1</option>
+     <option value="T2">T2</option>
+     <option value="T3">T3</option>
+    </select>
+    <br>
+    <br>
+
+    <label for="location" id="location" > <b> Location </b></label>
+    <br>
+
+    <input id="location" type="radio" id="Lisbon" name="location" value="lisbon"> </input>
+    <label for="location"> Lisbon</label>
+    <br>
+
+    
+
+    <input id="location" type="radio" id="Evora" name="location" value="Evora"> </input>
+    <label for="location"> Evora</label>
+    <br>
+
+
+    
+
+    <input id="location" type="radio" id="sintra" name="location" value="sintra"> </input>
+    <label for="location"> Sintra</label>
+    <br>
+
+
+
+    <input id="location" type="radio" id="faro" name="location" value="faro"> </input>
+    <label for="location"> Faro</label>
+    <br>
+    <br>
+
+
+<label for="features" > <b>Add Features:</b></label>
+<br>
+
+<input id="checkbox" type="checkbox" name="features" value="new">
+<label for="checkbox" >New</label>
+<br>
+
+<input id="checkbox" type="checkbox" name="features" value="remodeled">
+<label for="checkbox" >Remodeled</label>
+<br>
+
+<input id="checkbox" type="checkbox" name="features" value="used">
+<label for="checkbox" >Used</label>
+<br>
+<br>
+
+
+<label id="textarea"> <b>Comments</b></label>
+<br>
+<textarea id="textarea" name = " discription" rows="5" cols="40" ></textarea>
+<br>
+<br>
+
+<input id='submit' type='submit' value='SEARCH' class="submit_button">
+
+</div>
+</form>
+</body>
+</html>
